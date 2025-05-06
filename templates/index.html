@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skeniranje</title>
+  <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+  <script src="/static/script.js"></script>
+</head>
+<body>
+  <h2>Skeniraj kod</h2>
+  <div id="reader" style="width: 300px;"></div>
+  <form id="infoForm">
+    <input type="text" id="code" name="code" placeholder="Kod" readonly><br>
+    <input type="text" id="name" name="name" placeholder="Naziv"><br>
+    <input type="text" id="location" name="location" placeholder="Lokacija (skladište 1/2)"><br>
+    <input type="text" id="status" name="status" placeholder="Status (iznajmljeno, ponuđeno...)"><br>
+    <button type="submit">Spremi</button>
+  </form>
+</body>
+</html>
